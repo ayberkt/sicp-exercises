@@ -1,6 +1,4 @@
-# Chapter 1
-
-Ex 1.1
+# Exercise 1.1
 
 ```scheme
 10
