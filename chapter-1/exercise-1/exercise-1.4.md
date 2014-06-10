@@ -7,7 +7,7 @@ As long as the first element of an S-expression is a function, it is valid “co
 To give another example, the following could be done in Scheme too.
 
 ```scheme
-(define ops `(,+ ,- ,* ,/))
+(define ops (list + - * /))
 ((car ops) 1 2)
 ((cadr) ops 1 2)
 ```
