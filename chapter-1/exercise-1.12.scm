@@ -1,5 +1,5 @@
-;; Not sure if this conforms to the Scheme used in SICP.
-;; The following code is R6RS Scheme.
+;; The following code is R6RS Scheme;
+;; it may not conform the Scheme used in SICP.
 
 (define (factorial n)
   (define (fact-iter product counter max-count)
