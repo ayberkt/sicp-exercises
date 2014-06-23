@@ -6,7 +6,7 @@ We may observe that multiplication can be defined as
 
 ```
 a * b = 2 * a * (b / 2) if b is even
-      = a + a * (b - 1) if a is even
+      = a + a * (b - 1) if a is odd
 ```
 
 This observation is implemented as follow:
