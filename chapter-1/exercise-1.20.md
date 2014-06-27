@@ -1,0 +1,5 @@
+# Exercise 1.20
+
+The terminal condition for our ```gcd``` procedure is whether ```b``` is equal to zero. If this is the case, ```a``` should be returned by the procedure, otherwise, our procedure should recur by switching ```a``` with ```b``` and switching ```b``` with the remainder of the division of ```a``` by ```b```. What matters is that this division (use of the ```remainder``` function) should take place only if ```b``` is greater than zero which is not the case with the normal-order evaluation behavior.
+
+Normal-order evaluation implies that the arguments of an ```if``` form are attempted to be evaluated regardless of the value of the predicate. Thus, whenever ```b``` gets down to zero, the interpreter would try do evaluate the expression ```(remainder a 0)``` which would result in a zero-division error.
