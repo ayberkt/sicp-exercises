@@ -1,5 +1,7 @@
 # Exercise 1.22
 
+**Note:** This exercise requires a scheme which has a ```runtime``` primitive. Following code was tested using the [SICP mode](http://www.neilvandyke.org/racket-sicp/) of Racket.
+
 This exercise is based on the following code provided in the section on primality testing.
 
 ```scheme
