@@ -77,4 +77,4 @@ This exercise is based on the following code provided in the section on primalit
 1000037 *** 167
 ```
 
-Testing for primes around 10,000 takes about 30 seconds, whose square root is approximately equalt to 5.5. In our case, testing for primes around 1000 took about 7 seconds so we may conclude that the results are consistent with the ```theta (sqrt (n))``` order of growth we anticipated.
+Testing for primes around 10,000 takes about 30 seconds, whose square root is approximately equalt to 5.5. In our case, testing for primes around 1000 took about 7 seconds so we may conclude that the results are consistent with the ```theta( sqrt(n) )``` order of growth we anticipated.
