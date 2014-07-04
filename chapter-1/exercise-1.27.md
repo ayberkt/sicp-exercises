@@ -1,5 +1,6 @@
 # Exercise 1.27
 
+In SICP the Fermat-based primality test is defined as follows:
 ```scheme
 (define (expmod base exp m)
   (cond ((= exp 0) 1)
@@ -22,7 +23,6 @@
 ```
 
 With our tests defined like this, let's test the primality of a few numbers.
-
 ```scheme
 ;; These are all primes.
 (define primes '(13 457 787 929 1151))
@@ -31,12 +31,10 @@ With our tests defined like this, let's test the primality of a few numbers.
 (map (lambda (x) (fast-prime? x 50)) primes)
 ; => (#t #t #t #t #t)
 ```
-
 It returns true for all; it correctly determined all numbers to be
 primes.
 
 Now let's try the Carmichael numbers.
-
 ```scheme
 ;; The following are not primes.
 (define carmichael-numbers '(561 1105 1729 2465))
