@@ -13,11 +13,12 @@
   (* (/ a (add1 a))
      (/ (+ a 2) (add1 a))))
 
-(let ((approx  (product (lambda (x) (* (/ x (add1 x))
-                                  (/ (+ x 2) (add1 x))))
-                        2
-                        (lambda (x) (+ x 2))
-                        20)))
+(let ((approx
+       (product (lambda (x) (* (/ x (add1 x))
+                          (/ (+ x 2) (add1 x))))
+                2
+                (lambda (x) (+ x 2))
+                20)))
   (display (* 4 (exact->inexact approx))))
 ; => 3.2137849402931895
 ```
